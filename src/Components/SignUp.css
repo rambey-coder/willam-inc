@@ -197,3 +197,36 @@ div.forms > form > button:hover {
     color: #FD7B38;
     text-decoration: none;
 }
+
+@media screen and (max-width: 768px) {
+    .signup-container {
+        flex-direction: column;
+    }
+
+    .img-background, .form-container {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .form > span {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 518px) {
+    .form {
+        flex-direction: column;
+    }
+
+    .form > span {
+        width: 100%;
+    }
+
+    div.forms > form > div:nth-child(1) {
+        margin-bottom: 0;
+    }
+
+    .txt-container > p {
+        width: 85%;
+    }
+}
