@@ -5,7 +5,6 @@ const SignUp = () => {
   return (
     <div className="signup-container">
       <div className="img-background">
-        {/* <div className="bg-img"></div> */}
         <div className="txt-container">
           <img src="./Assets/signup-star.svg" alt="star" />
           <h1>
