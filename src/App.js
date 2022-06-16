@@ -1,9 +1,10 @@
 import './App.css';
+import SignUp from './Components/SignUp'
 
 function App() {
   return (
     <div className="App">
-      <h1>leggo</h1>
+      <SignUp />
     </div>
   );
 }
