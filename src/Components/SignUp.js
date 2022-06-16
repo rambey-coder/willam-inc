@@ -5,13 +5,14 @@ const SignUp = () => {
   return (
     <div className="signup-container">
       <div className="img-background">
+      <div className="color"></div>
         <div className="txt-container">
           <img src="./Assets/signup-star.svg" alt="star" />
           <h1>
             Collaborate <br />
             with ease. <span>Remotely</span>
           </h1>
-          <img src="./Assets/vector-signup.svg" alt="vector" />
+          {/* <img src="./Assets/vector-signup.svg" alt="vector" /> */}
           <p>Join the team, make awesome projects that would make your clients happy.</p>
         </div>
       </div>
