@@ -1,7 +1,12 @@
 import React from 'react'
 import './SignUp.css'
+import { useNavigate } from 'react-router-dom'
 
 const SignUp = () => {
+  const navigate = useNavigate()
+  const handleNavigate = () => {
+    navigate('/page')
+  }
   return (
     <div className="signup-container">
       <div className="img-background">
@@ -55,7 +60,7 @@ const SignUp = () => {
                     <input type="password" />
                   </span>
                 </div>
-                <button>Sign up</button>
+                <button onClick={handleNavigate}>Sign up</button>
               </form>
             </div>
           </div>
