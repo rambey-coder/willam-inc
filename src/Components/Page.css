@@ -73,9 +73,9 @@ nav > div > span {
 .hero-section > p {
     color: #696969;
     margin: auto;
-    width: 21vw;
+    width: 32vw;
     margin-top: 1.4rem;
-    font-size: 12px;
+    font-size: 16px;
     text-align: center;
     font-weight: 500;
 }
@@ -85,6 +85,7 @@ nav > div > span {
     color: #FFE5D7;
     font-size: 13px;
     font-weight: 400;
+    cursor: pointer;
     border: 1px solid transparent;
     border-radius: 4px;
     text-align: center;
@@ -92,7 +93,14 @@ nav > div > span {
     margin: auto;
     padding: 10px;
     width: 100px;
-    margin-top: 15px;
+    margin-top: 1.4rem;
+}
+
+.hero-section > button:hover {
+    background: transparent;
+    border: 1px solid #FD7B38;
+    transition: .3s ease;
+    color: #FD7B38;
 }
 
 .figure {
@@ -108,4 +116,15 @@ nav > div > span {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+}
+
+.figure > span > p:nth-child(1) {
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+
+.figure > span > p:nth-child(2) {
+    font-size: 11px;
+    color: #696969;
 }

@@ -16,7 +16,7 @@ const Page = () => {
           <Link to='#' className='link'>Contact</Link>
           <Link to='#' className='link'>FAQs</Link>
           <span>
-            <Link to='#' className='sign-in'>Sign In</Link>
+            <Link to='/' className='sign-in'>Sign Up</Link>
           </span>
         </div>
       </nav>
@@ -27,7 +27,7 @@ const Page = () => {
         <button>Try it for free</button>
         <div className="figure">
           <span>
-            <p>15000+</p>
+            <p>15,000+</p>
             <p>Users</p>
           </span>
 
