@@ -22,7 +22,25 @@ const Page = () => {
       </nav>
 
       <div className="hero-section">
-        <h1>Collaborate. Track workflow. Manage the Team</h1>
+        <h1>Collaborate. Track workflow. <br /> Manage the Team</h1>
+        <p>Try workflo today and increase your companys productivity, effectiveness and attain great turn over with more happy clients</p>
+        <button>Try it for free</button>
+        <div className="figure">
+          <span>
+            <p>15000+</p>
+            <p>Users</p>
+          </span>
+
+          <span>
+            <p>400+</p>
+            <p>Companies</p>
+          </span>
+
+          <span>
+            <p>2 times</p>
+            <p>Workspace of the year</p>
+          </span>
+        </div>
       </div>
       </div>
     </div>

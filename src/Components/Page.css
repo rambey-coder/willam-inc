@@ -4,6 +4,7 @@
 
 .page-logo {
     width: 90px;
+    cursor: pointer;
 }
 
 .nav {
@@ -60,4 +61,51 @@ nav > div > span {
     width: 80%;
     margin: auto;
     margin-top: 4rem;
+}
+
+.hero-section > h1 {
+    color: #1E1E1E;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.hero-section > p {
+    color: #696969;
+    margin: auto;
+    width: 21vw;
+    margin-top: 1.4rem;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.hero-section > button {
+    background: #FD7B38;
+    color: #FFE5D7;
+    font-size: 13px;
+    font-weight: 400;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    width: 100px;
+    margin-top: 15px;
+}
+
+.figure {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.figure > span {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
