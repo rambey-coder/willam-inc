@@ -52,3 +52,50 @@ nav > div > span {
     color: #FFE5D7;
     transition: 0.3s ease;
 }
+
+.footer-section {
+    width: 90%;
+    margin: auto;
+    margin-top: 20rem;
+}
+
+.nav-foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.foot > p {
+    color: #1E1E1E;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.foot > span {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.foot > span > a {
+    text-decoration: none;
+}
+
+.foot > span > a > i {
+    color: #FD7B38;
+    font-size: 17px;
+}
+
+.foot > span > a > i:hover {
+    color: #fd9e6b;
+    transition: .4s linear;
+}
