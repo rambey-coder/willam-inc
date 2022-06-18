@@ -169,22 +169,27 @@ nav > div > span {
 
 .img-container > img:nth-child(1) {
     width: 100px;
+    cursor: pointer;
 }
 
 .img-container > img:nth-child(2) {
     width: 220px;
+    cursor: pointer;
 }
 
 .img-container > img:nth-child(3) {
     width: 60px;
+    cursor: pointer;
 }
 
 .img-container > img:nth-child(4) {
     width: 45px;
+    cursor: pointer;
 }
 
 .img-container > img:nth-child(5) {
     width: 85px;
+    cursor: pointer;
 }
 
 .features-section {
@@ -227,9 +232,31 @@ nav > div > span {
 }
 
 .features-content > p {
-    color: #696969;
+    color: #1E1E1E;
+    font-weight: 500;
 }
 
 div > div.features-content > button {
     margin: 1.4rem 0;
+}
+
+.task-section {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+.task-container {
+    background: #FFE5D7;
+    padding: 2.7rem 0;
+    margin-top: 7rem;
+}
+
+.notes-container {
+    width: 80%;
+    margin: auto;
+    margin-top: 7rem;
 }

@@ -45,8 +45,8 @@ const Page = () => {
       </div>
 
       <div className="dashboard">
-          <img src="./Assets/Dashboard.svg" alt="dashboard" className='dashboard-img'/>
-        </div>
+        <img src="./Assets/Dashboard.svg" alt="dashboard" className='dashboard-img' />
+      </div>
 
       <div className="main-section">
         <div className="brand-section">
@@ -65,17 +65,44 @@ const Page = () => {
         <h2>Features</h2>
         <p>Check out the numerous things that makes us special</p>
         <div className="features-container">
-        <div className="features-img">
-          <img src="./Assets/Dashboard.svg" alt="dashboard" className='dashboard-img' />
-        </div>
+          <div className="features-img">
+            <img src="./Assets/Dashboard.svg" alt="dashboard" className='dashboard-img' />
+          </div>
 
           <div className="features-content">
-             <h2>Dashboard</h2>  
-             <p>Our amazing dashboard gives you an overview of your days task and upcoming task to be done and also organize your project according to priority.</p> 
-             <button className='try-btn'>Try it for free</button>                                  
+            <h2>Dashboard</h2>
+            <p>Our amazing dashboard gives you an overview of your days task and upcoming task to be done and also organize your project according to priority.</p>
+            <button className='try-btn'>Try it for free</button>
           </div>
         </div>
       </div>
+
+      <div className="task-container">
+        <div className="task-section">
+          <div className="features-img">
+            <img src="./Assets/Dashboard.svg" alt="dashboard" className='dashboard-img' />
+          </div>
+          <div className="features-content">
+            <h2>Task list</h2>
+            <p>See your task list, get motivated by seeing your achievement and the ones left to be done. </p>
+            <button className='try-btn'>Try it for free</button>
+          </div>
+        </div>
+      </div>
+
+      <div className="notes-container">
+      <div className="features-container">
+          <div className="features-img">
+            <img src="./Assets/Dashboard.svg" alt="dashboard" className='dashboard-img' />
+          </div>
+
+          <div className="features-content">
+            <h2>Make notes</h2>
+            <p>Keep your ideas and iterations on sticky notes and and also publish note to be seen by your team members.</p>
+            <button className='try-btn'>Try it for free</button>
+          </div>
+        </div>
+        </div>
     </div>
   )
 }
