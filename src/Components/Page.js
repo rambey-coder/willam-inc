@@ -1,26 +1,13 @@
 import React from 'react'
 import './Page.css'
-import { Link } from 'react-router-dom'
+import Navbar from './Navbar'
+import Footer from './Footer'
 
 const Page = () => {
   return (
     <div className="page-container">
       <div className="nav-sec">
-        <nav className="nav">
-          <img src="./Assets/Workflo-logo.svg" alt="logo" className='page-logo' />
-
-          <div className="lists">
-            <Link to='#' className='link'>Products</Link>
-            <Link to='#' className='link'>Pricing</Link>
-            <Link to='#' className='link'>Blog</Link>
-            <Link to='#' className='link'>Contact</Link>
-            <Link to='#' className='link'>FAQs</Link>
-            <span>
-              <Link to='/' className='sign-in'>Sign Up</Link>
-            </span>
-          </div>
-        </nav>
-
+        <Navbar />
         <div className="hero-section">
           <h1>Collaborate. Track workflow. <br /> Manage the Team</h1>
           <p>Try workflo today and increase your companys productivity, effectiveness and attain great turn over with more happy clients</p>
@@ -91,7 +78,7 @@ const Page = () => {
       </div>
 
       <div className="notes-container">
-      <div className="features-container">
+        <div className="features-container">
           <div className="features-img">
             <img src="./Assets/Dashboard.svg" alt="dashboard" className='dashboard-img' />
           </div>
@@ -102,39 +89,41 @@ const Page = () => {
             <button className='try-btn'>Try it for free</button>
           </div>
         </div>
+      </div>
+
+      {/* carousel */}
+      <div className="carousel-container"></div>
+
+      <div className="brains-section">
+        <h1>Meet the brains</h1>
+        <div className="brain-img">
+          <span>
+            <img src="./Assets/adedotun.png" alt="adedotun" />
+            <h5>AdeDotun</h5>
+            <p>CEO and Co-founder</p>
+          </span>
+
+          <span>
+            <img src="./Assets/sam-lesley.png" alt="Sam Lesley" />
+            <h5>Sam Lesley</h5>
+            <p>COO and Co-founder</p>
+          </span>
+
+          <span>
+            <img src="./Assets/maria.png" alt="Maria Ferguson" />
+            <h5>Maria Ferguson</h5>
+            <p>Engineering Lead</p>
+          </span>
+
+          <span>
+            <img src="./Assets/adedamola.png" alt="Adedamola" />
+            <h5>Adedamola</h5>
+            <p>UI/UX Designer</p>
+          </span>
         </div>
+      </div>
 
-        {/* carousel */}
-        <div className="carousel-container"></div>
-
-        <div className="brains-section">
-          <h1>Meet the brains</h1>
-          <div className="brain-img">
-            <span>
-              <img src="./Assets/adedotun.png" alt="adedotun" />
-              <h5>AdeDotun</h5>
-              <p>CEO and Co-founder</p>
-            </span>
-
-            <span>
-              <img src="./Assets/sam-lesley.png" alt="Sam Lesley" />
-              <h5>Sam Lesley</h5>
-              <p>COO and Co-founder</p>
-            </span>
-
-            <span>
-              <img src="./Assets/maria.png" alt="Maria Ferguson" />
-              <h5>Maria Ferguson</h5>
-              <p>Engineering Lead</p>
-            </span>
-
-            <span>
-              <img src="./Assets/adedamola.png" alt="Adedamola" />
-              <h5>Adedamola</h5>
-              <p>UI/UX Designer</p>
-            </span>
-          </div>
-        </div>
+      <Footer />
     </div>
   )
 }
