@@ -8,7 +8,7 @@ const Footer = () => {
             <div className="nav-foot">
                 <img src="./Assets/Workflo-logo.svg" alt="logo" className='page-logo' />
 
-                <div className="lists">
+                <div className="lists-footer">
                     <Link to='#' className='link'>Products</Link>
                     <Link to='#' className='link'>Pricing</Link>
                     <Link to='#' className='link'>Blog</Link>
@@ -25,13 +25,13 @@ const Footer = () => {
                 <p>&#169; 2022 Workflo Org. All rights reserved</p>
                 <span>
                     <a href="">
-                        <i class="fa-brands fa-linkedin"></i>
+                        <i className="fa-brands fa-linkedin"></i>
                     </a>
                     <a href="">
-                        <i class="fa-brands fa-twitter"></i>
+                        <i className="fa-brands fa-twitter"></i>
                     </a>
                     <a href="">
-                        <i class="fa-brands fa-instagram"></i>
+                        <i className="fa-brands fa-instagram"></i>
                     </a>
                 </span>
             </div>

@@ -5,6 +5,7 @@ import { useState } from 'react'
 
 const Navbar = () => {
     const [click, setClick] = useState(false)
+
     
     const handleClick = () => setClick(!click)
 
@@ -12,7 +13,7 @@ const Navbar = () => {
         <nav className="nav">
             <img src="./Assets/Workflo-logo.svg" alt="logo" className='page-logo' />
 
-            <div className="lists">
+            <div className={click ? 'lists active' : 'lists'}>
                 <Link to='#' className='link'>Products</Link>
                 <Link to='#' className='link'>Pricing</Link>
                 <Link to='#' className='link'>Blog</Link>
