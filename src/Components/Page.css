@@ -110,6 +110,7 @@ nav > div > span {
     width: 50%;
     margin: auto;
     margin-top: 2rem;
+    padding-bottom: 25rem;
 }
 
 .figure > span {
@@ -127,4 +128,61 @@ nav > div > span {
 .figure > span > p:nth-child(2) {
     font-size: 11px;
     color: #696969;
+}
+
+.dashboard {
+    position: relative;
+    bottom: 23rem;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.dashboard-img {
+    width: 100%;
+}
+
+.main-section {
+    position: relative;
+    bottom: 12rem;
+}
+
+.brand-section {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.brand-section > h3 {
+    color: #1E1E1E;
+    font-weight: 600;
+}
+
+.img-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.img-container > img:nth-child(1) {
+    width: 100px;
+}
+
+.img-container > img:nth-child(2) {
+    width: 220px;
+}
+
+.img-container > img:nth-child(3) {
+    width: 60px;
+}
+
+.img-container > img:nth-child(4) {
+    width: 45px;
+}
+
+.img-container > img:nth-child(5) {
+    width: 85px;
 }
