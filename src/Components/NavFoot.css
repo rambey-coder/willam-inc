@@ -99,3 +99,14 @@ nav > div > span {
     color: #fd9e6b;
     transition: .4s linear;
 }
+
+.mobile-icon {
+    display: none;
+}
+
+.mobile-icon > i {
+    cursor: pointer;
+    color: #FD7B38;
+    font-size: 20px;
+    transition: 0.4s ease;
+}
