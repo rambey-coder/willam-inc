@@ -80,7 +80,7 @@ nav > div > span {
     font-weight: 500;
 }
 
-.hero-section > button {
+.try-btn {
     background: #FD7B38;
     color: #FFE5D7;
     font-size: 13px;
@@ -96,7 +96,7 @@ nav > div > span {
     margin-top: 1.4rem;
 }
 
-.hero-section > button:hover {
+.try-btn:hover {
     background: transparent;
     border: 1px solid #FD7B38;
     transition: .3s ease;
@@ -185,4 +185,51 @@ nav > div > span {
 
 .img-container > img:nth-child(5) {
     width: 85px;
+}
+
+.features-section {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.features-section > h2 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.features-section > p {
+    color: #696969;
+    font-weight: 500;
+}
+
+.features-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.features-img {
+    width: 50%;
+}
+
+.features-content {
+    width: 40%;
+    text-align: left;
+}
+
+.features-content > h2 {
+    margin-bottom: 12px;
+    font-family: 600;
+    color: #1E1E1E;
+}
+
+.features-content > p {
+    color: #696969;
+}
+
+div > div.features-content > button {
+    margin: 1.4rem 0;
 }
