@@ -45,13 +45,13 @@
     border: 2px solid #FD7B38;
     border-radius: 8px;
     width: 30%;
-    padding: 50px;
+    padding: 20px;
 }
 
 .flex-two {
     background: #FD7B38;
     width: 30%;
-    padding: 50px;
+    padding: 20px;
     border-radius: 8px;
 }
 
@@ -59,13 +59,26 @@
     border: 2px solid #FD7B38;
     border-radius: 8px;
     width: 30%;
-    padding: 50px;
+    padding: 20px;
 }
 
-/* .gen-list {
-    list-style-image: url(/public/Assets/check-box.svg);
-    background-size: 50px;
-} */
+.gen-list {
+    list-style-type: none;
+}
+
+.gen-list > span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.gen-list > span > img {
+    width: 13px;
+}
+
+.gen-list > span > li {
+    font-size: 12px;
+}
 
 .gen-list > li {
     font-size: 10px;
