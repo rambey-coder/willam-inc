@@ -15,7 +15,7 @@ const Navbar = () => {
 
             <div className={click ? 'lists active' : 'lists'}>
                 <Link to='#' className='link'>Products</Link>
-                <Link to='#' className='link'>Pricing</Link>
+                <Link to='/price' className='link'>Pricing</Link>
                 <Link to='#' className='link'>Blog</Link>
                 <Link to='#' className='link'>Contact</Link>
                 <Link to='#' className='link'>FAQs</Link>
