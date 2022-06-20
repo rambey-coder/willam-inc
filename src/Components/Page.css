@@ -172,7 +172,6 @@
 
 .features-content > h2 {
     margin-bottom: 12px;
-    font-family: 600;
     color: #1E1E1E;
 }
 
@@ -282,7 +281,6 @@ div > div.features-content > button {
 @media  (max-width: 734px) {
     .img-container {
         flex-wrap: wrap;
-        align-self: flex-start;
     }
 
     .features-container, .task-section {
@@ -291,5 +289,50 @@ div > div.features-content > button {
 
     .features-img, .features-content {
         width: 80%;
+    }
+}
+
+@media screen and (max-width: 669px) {
+    .hero-section > h1 {
+        font-size: 35px;
+    }
+
+    .hero-section > p {
+        width: 90%;
+    }
+
+    .dashboard {
+        bottom: 13rem;
+    }
+}
+
+@media  (max-width: 548px) {
+    .hero-section > h1 {
+        font-size: 30px;
+    }
+
+    .hero-section > p {
+        width: 100%;
+    }
+
+    .main-section {
+        bottom: 6rem;
+    }
+
+    .figure, .img-container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .figure > span {
+        align-items: center;
+    }
+
+    .features-content > p, .features-content > h2 {
+        text-align: center;
+    }
+
+    div > div.features-content > button {
+        margin: 1.4rem auto;
     }
 }

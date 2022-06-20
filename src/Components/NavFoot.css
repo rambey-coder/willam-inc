@@ -151,3 +151,10 @@ nav > div > span {
         flex-wrap: wrap;
     }
 }
+
+@media  (max-width: 548px) {
+    .foot {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
