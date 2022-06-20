@@ -1,0 +1,74 @@
+.price-content {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.saly-container {
+    width: 40%;
+}
+
+.saly {
+    width: 100%;
+}
+
+.pricing-sec {
+    position: absolute;
+    text-align: center;
+    width: 70%;
+    right: 130px;
+}
+
+.pricing-sec > h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.pricing-sec > p {
+    margin-bottom: 3rem;
+    margin-top: 20px;
+    color: #696969;
+    font-weight: 500;
+}
+
+.card-container {
+    display: flex;
+    gap: 1rem;
+    width: 80%;
+    margin: auto;
+    background: #fff;
+    padding: 45px;
+    filter: drop-shadow(3px 3px 10px #00000014);
+}
+
+.flex-one {
+    border: 2px solid #FD7B38;
+    border-radius: 8px;
+    width: 30%;
+    padding: 50px;
+}
+
+.flex-two {
+    background: #FD7B38;
+    width: 30%;
+    padding: 50px;
+    border-radius: 8px;
+}
+
+.flex-three {
+    border: 2px solid #FD7B38;
+    border-radius: 8px;
+    width: 30%;
+    padding: 50px;
+}
+
+/* .gen-list {
+    list-style-image: url(/public/Assets/check-box.svg);
+    background-size: 50px;
+} */
+
+.gen-list > li {
+    font-size: 10px;
+    color: #696969;
+    font-weight: 500;
+}

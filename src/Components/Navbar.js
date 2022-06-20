@@ -14,7 +14,7 @@ const Navbar = () => {
             <img src="./Assets/Workflo-logo.svg" alt="logo" className='page-logo' />
 
             <div className={click ? 'lists active' : 'lists'}>
-                <Link to='#' className='link'>Products</Link>
+                <Link to='/page' className='link'>Products</Link>
                 <Link to='/price' className='link'>Pricing</Link>
                 <Link to='#' className='link'>Blog</Link>
                 <Link to='#' className='link'>Contact</Link>
