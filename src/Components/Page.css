@@ -89,7 +89,7 @@
 
 .main-section {
     position: relative;
-    bottom: 12rem;
+    bottom: 10rem;
 }
 
 .brand-section {
@@ -222,7 +222,7 @@ div > div.features-content > button {
 .brain-img {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     gap: 2rem;
     width: 100%;
 }
@@ -243,4 +243,53 @@ div > div.features-content > button {
     font-weight: 600;
     text-align: center;
     font-size: 12px;
+}
+
+@media screen and (max-width: 930px) {
+    .brain-img {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 876px) {
+    .hero-section > h1 {
+        font-size: 37px;
+    }
+
+     .hero-section > p {
+        width: 50vw;
+     }
+
+     .figure {
+        width: 70%;
+     }
+
+     .dashboard {
+        bottom: 20rem;
+     }
+}
+
+@media screen and (max-width: 777px) {
+    .dashboard {
+        bottom: 16rem;
+    }
+
+    .figure {
+        padding-bottom: 17rem;
+    }
+}
+
+@media  (max-width: 734px) {
+    .img-container {
+        flex-wrap: wrap;
+        align-self: flex-start;
+    }
+
+    .features-container, .task-section {
+        flex-direction: column-reverse;
+    }
+
+    .features-img, .features-content {
+        width: 80%;
+    }
 }

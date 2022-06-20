@@ -121,19 +121,18 @@ nav > div > span {
     }
 
     .lists {
-        opacity: 0;
+        display: none;
     }
 
      .active {
         position: absolute;
         transition: all 0.5s ease-in-out;
         flex-direction: column;
-        opacity: 1;
+        display: flex;
         right: 50%;
         left: 50%;
         transform: translate(-50%, 0);
         padding: 15px;
-        border-radius: 4px;
         top: 50px;
         backdrop-filter: blur(17px) saturate(188%);
         background-color: rgba(253, 158, 107, 0.59);
