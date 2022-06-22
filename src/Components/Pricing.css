@@ -98,14 +98,14 @@
     font-weight: 500;
 }
 
-div.flex-one > div > a, div.flex-three > div > a {
+div.flex-one > div > a {
     font-size: 13px;
     color: #FD7B38;
     display: block;
     margin-bottom: 10rem;
 }
 
-div.flex-one > div > a:hover, div.flex-three > div > a:hover {
+div.flex-one > div > a:hover,  div.flex-three > div > a:hover {
     color: #fd9e6b;
     transition: .4s ease;
 }
@@ -192,5 +192,17 @@ div.flex-two > div > button:hover {
 .flex-container-right > p {
     color: #000;
     font-size: 12px;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
+}
+
+div.flex-three > div > a {
+    font-size: 13px;
+    color: #FD7B38;
+    display: block;
+    margin-bottom: 3.5rem;
+}
+
+
+.cont {
+    margin: 0;
 }

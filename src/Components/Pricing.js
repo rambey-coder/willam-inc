@@ -43,7 +43,7 @@ const Pricing = () => {
 
                         <a href="#">See more feature</a>
 
-                        <button className='try-btn'>Try it for free</button>
+                        <button className='try-btn cont'>Try it for free</button>
                     </div>
                 </div>
 
@@ -86,7 +86,7 @@ const Pricing = () => {
 
                         <a href="#">See more feature</a>
 
-                        <button className='try-btn'>Try it for free</button>
+                        <button className='try-btn cont'>Try it for free</button>
                     </div>
                 </div>
 
@@ -121,7 +121,7 @@ const Pricing = () => {
 
                         <a href="#">See more feature</a>
 
-                        <button className='try-btn'>Try it for free</button>
+                        <button className='try-btn cont'>Try it for free</button>
                     </div>
                 </div>
             </div>
