@@ -33,24 +33,32 @@
 
 .card-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 1rem;
     width: 80%;
+    position: relative;
+    bottom: 10rem;
     margin: auto;
     background: #fff;
     padding: 45px;
     filter: drop-shadow(3px 3px 10px #00000014);
 }
 
+.flex-container, .flex-container-right {
+    margin: 3rem 0;
+}
+
 .flex-one {
     border: 2px solid #FD7B38;
     border-radius: 8px;
-    width: 30%;
+    width: 32%;
     padding: 20px;
 }
 
 .flex-two {
     background: #FD7B38;
-    width: 30%;
+    width: 32%;
     padding: 20px;
     border-radius: 8px;
 }
@@ -58,18 +66,20 @@
 .flex-three {
     border: 2px solid #FD7B38;
     border-radius: 8px;
-    width: 30%;
+    width: 32%;
     padding: 20px;
 }
 
 .gen-list {
     list-style-type: none;
+    margin-bottom: 30px;
 }
 
 .gen-list > span {
     display: flex;
     align-items: center;
     gap: 5px;
+    padding: 13px 0;
 }
 
 .gen-list > span > img {
@@ -78,10 +88,109 @@
 
 .gen-list > span > li {
     font-size: 12px;
+    font-weight: 500;
+    /* color: #696969; */
 }
 
 .gen-list > li {
     font-size: 10px;
     color: #696969;
     font-weight: 500;
+}
+
+div.flex-one > div > a, div.flex-three > div > a {
+    font-size: 13px;
+    color: #FD7B38;
+    display: block;
+    margin-bottom: 10rem;
+}
+
+div.flex-one > div > a:hover, div.flex-three > div > a:hover {
+    color: #fd9e6b;
+    transition: .4s ease;
+}
+
+.flex-container > h4 {
+    margin-bottom: 2rem;
+    font-size: 23px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.flex-container > h3,  .flex-container-right > h3 {
+    font-weight: 700;
+    font-size: 30px;
+    color: #000000;
+    margin-bottom: 2rem;
+}
+
+.flex-container > h3 > span, .flex-container-right > h3 > span {
+    font-size: 13px;
+    font-weight: 500;
+    color: #444444;
+}
+
+.flex-container-middle {
+    margin: 3rem 0;
+} 
+
+.flex-container-middle > h4 {
+    color: #fff;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.flex-container-middle > p {
+    color: #fff;
+    font-size: 12px;
+    margin-bottom: 3rem;
+}
+
+.flex-container-middle > h3 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.flex-container-middle > h3 > span {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.middle > span > li {
+    color: #fff;
+}
+
+div.flex-two > div > a {
+    font-size: 13px;
+    color: #fff;
+    display: block;
+    margin-bottom: 10rem;
+}
+
+div.flex-one > div > a:hover {
+    color: #ffebe1;
+    transition: .4s ease;
+}
+
+div.flex-two > div > button {
+    border: 1px solid #fff;
+}
+
+div.flex-two > div > button:hover {
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.flex-container-right > h4 {
+    font-weight: 600;
+    font-size: 23px;
+    color: #000;
+}
+
+.flex-container-right > p {
+    color: #000;
+    font-size: 12px;
+    margin-bottom: 3rem;
 }
