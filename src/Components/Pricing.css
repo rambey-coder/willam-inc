@@ -206,3 +206,61 @@ div.flex-three > div > a {
 .cont {
     margin: 0;
 }
+
+@media screen and (max-width: 1159px) {
+    .pricing-sec {
+        right: 90px;
+    }
+
+    .card-container {
+        bottom: 8rem;
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 999px) {
+    .pricing-sec {
+        right: 0;
+        position: relative;
+    }
+
+    .card-container {
+        flex-direction: column;
+        bottom: 0;
+        margin-top: 2rem;
+    }
+
+    .flex-one, .flex-two, .flex-three {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 742px) {
+    .saly-container {
+        display: none;
+    }
+
+    .price-content {
+        align-items: center;
+        justify-content: center;
+    }
+
+    div.pricing-sec > button {
+        margin-bottom: 1rem;
+    }
+
+    .flex-one, .flex-two, .flex-three {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 546px) {
+    .flex-one, .flex-two, .flex-three {
+        width: 100%;
+    }
+
+    .card-container {
+        width: 90%;
+        padding: 25px;
+    }
+}
