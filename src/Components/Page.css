@@ -109,7 +109,7 @@
     justify-content: space-between;
     gap: 1rem;
     width: 100%;
-    margin-top: 15px;
+    margin-top: 30px;
 }
 
 .img-container > img:nth-child(1) {
@@ -288,7 +288,7 @@ div > div.features-content > button {
     }
 
     .features-img, .features-content {
-        width: 80%;
+        width: 100%;
     }
 }
 
