@@ -22,47 +22,69 @@ const Contact = () => {
                 </div>
             </div>
             <div className="contact-form ">
-                    <div className="form1">
-                        <h1>How can we help you?</h1>
-                        <p>Drop your suggestions, questions or enquiry in the form and let us attend to them with our swift customer care service.</p>
+                <div className="form1">
+                    <h1>How can we help you?</h1>
+                    <p>Drop your suggestions, questions or enquiry in the form and let us attend to them with our swift customer care service.</p>
 
-                    </div>
-                    <div className="form2">
-                        <div className="forms">
-                            <form>
-                                <div className="form">
-                                    <span>
-                                        <label htmlFor="name">First Name</label>
-                                        <input type="text" />
-                                    </span>
-
-                                    <span>
-                                        <label htmlFor="name">Company</label>
-                                        <input type="text" />
-                                    </span>
-                                </div>
-                                <div className="form">
-                                    <span>
-                                        <label htmlFor="mail">Email</label>
-                                        <input type="email" />
-                                    </span>
-
-                                    <span>
-                                        <label htmlFor="password">Phone Number</label>
-                                        <input type="number" />
-                                    </span>
-                                </div>
-                                <div className="text-area">
+                </div>
+                <div className="form2">
+                    <div className="forms">
+                        <form>
+                            <div className="form">
                                 <span>
-                                        <label htmlFor="password">Whats your question?</label>
-                                        <textarea></textarea>
-                                    </span>
-                                </div>
-                                <button className='submit'>Submit</button>
-                            </form>
-                        </div>
+                                    <label htmlFor="name">First Name</label>
+                                    <input type="text" />
+                                </span>
+
+                                <span>
+                                    <label htmlFor="name">Company</label>
+                                    <input type="text" />
+                                </span>
+                            </div>
+                            <div className="form">
+                                <span>
+                                    <label htmlFor="mail">Email</label>
+                                    <input type="email" />
+                                </span>
+
+                                <span>
+                                    <label htmlFor="password">Phone Number</label>
+                                    <input type="number" />
+                                </span>
+                            </div>
+                            <div className="text-area">
+                                <span>
+                                    <label htmlFor="password">Whats your question?</label>
+                                    <textarea></textarea>
+                                </span>
+                            </div>
+                            <button className='submit'>Submit</button>
+                        </form>
                     </div>
                 </div>
+            </div>
+
+            <div className="footer-contact">
+            <span>
+                    <a href="https://www.linkedin.com/">
+                        <i className="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://twitter.com/">
+                        <i className="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="https://www.instagram.com/">
+                        <i className="fa-brands fa-instagram"></i>
+                    </a>
+                </span>
+                <span>
+                <i class="fa-solid fa-location-dot"></i>
+                <p>36, Company street, Victoria island, Lagos, Nigeria</p>
+                </span>
+                <span>
+                <i class="fa-solid fa-headphones"></i>
+                <p>+234 706 737 6819</p>
+                </span>
+            </div>
             <Footer />
         </div>
     )

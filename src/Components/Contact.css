@@ -15,6 +15,7 @@
     background: #fff;
     padding: 45px;
     filter: drop-shadow(3px 3px 10px #00000014);
+    border-radius: 8px;
 }
 
 .saly-contact {
@@ -68,8 +69,8 @@
 }
 
 #root > div > div > div.contact-form > div.form2 > div > form > button {
-    width: 50%;
-    padding: 9px;
+    width: 40%;
+    padding: 15px 9px;
     color: #fff;
     font-size: 14px;
     font-weight: 500;
@@ -79,4 +80,46 @@
     border-radius: 4px;
     cursor: pointer;
     margin-bottom: 1rem;
+}
+
+.footer-contact {
+    filter: drop-shadow(3px 3px 10px #00000014);
+    width: 80%;
+    margin: auto;
+    background: #fff;
+    padding: 50px 30px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.footer-contact > span {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+}
+
+.footer-contact > span > a > i, .footer-contact > span > i {
+    color: #FD7B38;
+    font-size: 30px;
+}
+
+.footer-contact > span > a > i:hover, .footer-contact > span > i:hover {
+    color: #fd9e6b;
+    transition: .4s linear
+}
+
+.footer-contact > span:nth-child(2), .footer-contact > span:nth-child(3) {
+    justify-content: center;
+    gap: 1rem;
+}
+
+.footer-contact > span:nth-child(2) > p, .footer-contact > span:nth-child(3) > p {
+    color: #000;
+    font-weight: 600;
+    font-size: 14px;
 }
