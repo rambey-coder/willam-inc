@@ -77,11 +77,11 @@ const Contact = () => {
                     </a>
                 </span>
                 <span>
-                <i class="fa-solid fa-location-dot"></i>
+                <i className="fa-solid fa-location-dot"></i>
                 <p>36, Company street, Victoria island, Lagos, Nigeria</p>
                 </span>
                 <span>
-                <i class="fa-solid fa-headphones"></i>
+                <i className="fa-solid fa-headphones"></i>
                 <p>+234 706 737 6819</p>
                 </span>
             </div>
