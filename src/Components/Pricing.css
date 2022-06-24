@@ -252,6 +252,10 @@ div.flex-three > div > a {
         margin-bottom: 1rem;
     }
 
+    .pricing-sec {
+        width: 100%;
+    }
+
     .flex-one, .flex-two, .flex-three {
         width: 80%;
     }
