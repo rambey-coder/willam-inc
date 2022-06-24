@@ -123,3 +123,49 @@
     font-weight: 600;
     font-size: 14px;
 }
+
+@media screen and (max-width: 1088px) {
+    .contact-form {
+        bottom: 0;
+        margin-top: 2rem;
+    }
+
+    .form1 > h1 {
+        width: 90%;
+    }
+
+    .footer-contact {
+        margin-top: 10rem;
+    }
+}
+
+@media  (max-width: 912px) {
+    .contact-form {
+        flex-direction: column;
+    }
+
+    .form1, .form2 {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 742px) {
+    .contact-parag {
+        width: 90%;
+    }
+
+    .pricing-sec {
+        width: 100%;
+    }
+
+    .price-content {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 546px) {
+    .contact-form {
+        padding: 20px;
+        width: 90%;
+    }
+}
